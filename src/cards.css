@@ -1,0 +1,88 @@
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cards .card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 16%;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: gray;
+  align-items: center;
+  justify-content: space-between;
+  transform: scale(1) 1s;
+  /*display: block;*/
+}
+
+.card h1 {
+  color: #000;
+}
+
+.card .description {
+  color: #000;
+}
+
+.title {
+  color: rgb(94, 93, 93);
+  font-size: 18px;
+}
+
+
+.App-logo {
+  width: 65%;
+  height: auto;
+}
+
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cards .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+}
+
+
+
+.cards .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.486);
+  transition: all 2s ;
+  transform: scale(1.10);
+}
+

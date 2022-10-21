@@ -1,0 +1,36 @@
+.card_reseau {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+h2{
+    color: black;
+    font-size: 50px;
+    margin: auto;
+
+}
+
+.card_reseau:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.486);
+    transition: all 1s ;
+    transform: scale(1.15);
+  }
+  
+
+.container_reseau{
+    /*display: flex;*/
+    margin-left: 25%;
+    position: absolute;
+    bottom: 50%;
+}
